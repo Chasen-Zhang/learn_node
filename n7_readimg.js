@@ -12,6 +12,7 @@ http.createServer(function  (request,  response)  {
         //response.end('hell,世界');//end在方法中写过
 		
 		console.log(4);
+		console.log(89);
     }
 }).listen(8000);
 console.log('Server  running  at  http://127.0.0.1:8000/');
